@@ -56,7 +56,6 @@ class App extends Component {
     return (
       <div>
         <Header portfolioData={this.state.portfolioData.basic_info} />
-        
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.portfolioData.basic_info}
