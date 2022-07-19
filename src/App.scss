@@ -19,6 +19,20 @@ html {
 	font-family: "Montserrat";
 }
 
+// For All Components
+
+.section-title {
+	padding-bottom: 4%;
+	padding-top: 5%;
+	font-size: 350%;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Montserrat';
+	margin: 0 auto 18px auto;
+	width: 100%;
+}
+
+
 // For Header.js
 
 @font-face {
@@ -103,16 +117,6 @@ header h1 {
 
 #about {
 	overflow: hidden;
-}
-
-#about h1 {
-	font-size: 400%;
-	text-align: center;
-	padding-top: 5%;
-	font-weight: 600;
-	font-family: 'Montserrat';
-	margin: 0 auto 18px auto;
-	width: 100%;
 }
 
 .polaroid img {
@@ -425,16 +429,6 @@ header h1 {
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
-}
-
-.section-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #fff;
-	text-align: center;
 }
 
 .skill-icon {
