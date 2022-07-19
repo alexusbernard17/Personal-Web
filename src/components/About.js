@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
@@ -18,8 +14,8 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
-            <span>{sectionName}</span>
+          <h1>
+            {sectionName}
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
@@ -28,19 +24,7 @@ class About extends Component {
                   <img
                     height="250px"
                     src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    alt="My headshot placeholder"
                   />
                 </span>
               </div>
@@ -53,31 +37,31 @@ class About extends Component {
                     <span
                       className="iconify"
                       data-icon="emojione:red-circle"
-                      data-inline="false"
+                      data-inline="true"
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
                       className="iconify"
                       data-icon="twemoji:yellow-circle"
-                      data-inline="false"
+                      data-inline="true"
                     ></span>{" "}
                     &nbsp;{" "}
                     <span
                       className="iconify"
                       data-icon="twemoji:green-circle"
-                      data-inline="false"
+                      data-inline="true"
                     ></span>
                   </div>
                   <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    className="card-body about-me-paragraph-font text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
                       fontSize: "132%",
-                      lineHeight: "200%",
+                      lineHeight: "190%",
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="hello-world">{hello} </span>
                     <br />
                     <br />
                     {about}

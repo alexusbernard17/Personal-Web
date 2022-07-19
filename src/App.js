@@ -52,6 +52,17 @@ class App extends Component {
     });
   }
 
+  /**
+   * order:
+   * header
+   * about
+   * education
+   * experience
+   * projects
+   * skills
+   * footer
+   */
+
   render() {
     return (
       <div>
