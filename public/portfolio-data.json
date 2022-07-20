@@ -4,13 +4,23 @@
       "titles": [ "Computer Science Student", "Software Engineer", "Full Stack Developer"],
       "social": [
         {
+          "name": "mail",
+          "url": "mailto:abrooklyn3@gatech.edu",
+          "class": "fas fa-envelope"
+        },
+        {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/alexusbernard17",
           "class": "fab fa-github"
         },
         {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/alexusbrooklyn/",
+          "class": "fab fa-linkedin-in"
+        },
+        {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/alexusbernard17/",
           "class": "fab fa-instagram"
         }
       ],

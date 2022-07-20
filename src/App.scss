@@ -113,6 +113,31 @@ header h1 {
 	width: 150px;
 }
 
+header a {
+	color: white;
+}
+
+header a:hover {
+	#mail {
+		color: #ECDBBA;
+	}
+	#github {
+		color: #333333;
+	}
+	#linkedin {
+		color: #0A66C2;
+	}
+	#instagram {
+		color: #C13584;
+	}
+}
+
+.social-links-header {
+	margin-top: 40px;
+	font-size: 35px;
+}
+
+
 // For About.js
 
 #about {
@@ -449,17 +474,26 @@ footer {
 	text-align: center;
 }
 
-footer a,
-footer a:visited {
-	color: #fff;
+footer a {
+	color: white;
 }
 
-footer a:hover,
-footer a:focus {
-	color: #fff;
+footer a:hover {
+	#mail {
+		color: #ECDBBA;
+	}
+	#github {
+		color: #333333;
+	}
+	#linkedin {
+		color: #0A66C2;
+	}
+	#instagram {
+		color: #C13584;
+	}
 }
 
-.social-links {
+.social-links-footer {
 	margin-top: 50px;
-	font-size: 22px;
+	font-size: 28px;
 }

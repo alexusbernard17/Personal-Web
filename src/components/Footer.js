@@ -5,9 +5,11 @@ class Footer extends Component {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
-          <span key={network.name} className="m-4">
+          <span className="m-4">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
+              <span id={network.name}>
+                <i className={network.class}></i>
+              </span>
             </a>
           </span>
         );
@@ -17,7 +19,9 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
-          <div className="social-links">{networks}</div>
+          <div className="social-links-footer">
+            {networks}
+          </div>
 
           <div className="copyright py-4 text-center">
             <div className="container">
