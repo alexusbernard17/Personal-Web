@@ -63,6 +63,19 @@ html {
 	color:  white;
 }
 
+.button {
+	background-color: transparent;
+	border: none;
+	opacity: 0.7;
+	transition: all 0.2s ease-in-out;
+	&:focus {
+		outline: none;
+	}
+	&:hover {
+		opacity: 1;
+	}
+}
+
 .navbar-text {
 	font-family: "Montserrat";
 	font-size: 14px;

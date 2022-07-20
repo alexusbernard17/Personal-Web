@@ -12,7 +12,6 @@ class Header extends Component {
       var experience = this.props.resumeBasicInfo.section_name.experience;
       var projects = this.props.resumeBasicInfo.section_name.projects;
       var skills = this.props.resumeBasicInfo.section_name.skills;
-
     }
 
     if (this.props.portfolioData) {
@@ -39,6 +38,7 @@ class Header extends Component {
     }
 
     var windowWidth = window.innerWidth;
+
     return (
       <header id="home" style={{ height: window.innerHeight, display: 'block' }}>
         <div>
@@ -52,11 +52,11 @@ class Header extends Component {
                   </span>
                   <span className="logo-name-brackets">/&gt;</span>
                 </div>
-                <span className="navbar-text"> {"About"} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {education} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {experience} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {projects} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {skills} </span>
+                <button className="button"> <span className="navbar-text">{"About"}</span></button>
+                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{education}</span></button>
+                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{experience}</span></button>
+                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{projects}</span></button>
+                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{skills}</span></button>
               </div> :
               <div>
                 <span className="logo-name-brackets"> &lt;</span>
@@ -65,11 +65,11 @@ class Header extends Component {
                 </span>
                 <span className="logo-name-brackets">/&gt;</span>
                 <span style={{ marginLeft: "40%" }} />
-                <span className="navbar-text"> {"About"} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {education} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {experience} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {projects} </span>
-                <span className="navbar-text" style={{marginLeft: "15px"}}> {skills} </span>
+                <button className="button"> <span className="navbar-text">{"About"}</span></button>
+                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{education}</span></button>
+                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{experience}</span></button>
+                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{projects}</span></button>
+                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{skills}</span></button>
               </div>
           )}
         </div>
