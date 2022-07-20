@@ -25,7 +25,7 @@ class Education extends Component {
     }
 
     return (
-      <section id="skills">
+      <section id="education">
         <div className="col-md-12">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "#ECDBBA" }}>

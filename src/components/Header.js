@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 class Header extends Component {
   titles = [];
@@ -52,11 +53,11 @@ class Header extends Component {
                   </span>
                   <span className="logo-name-brackets">/&gt;</span>
                 </div>
-                <button className="button"> <span className="navbar-text">{"About"}</span></button>
-                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{education}</span></button>
-                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{experience}</span></button>
-                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{projects}</span></button>
-                <button className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{skills}</span></button>
+                <button onClick={() => scrollTo("#about")} className="button"> <span className="navbar-text">{"About"}</span></button>
+                <button onClick={() => scrollTo("#education")} className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{education}</span></button>
+                <button onClick={() => scrollTo("#experience")} className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{experience}</span></button>
+                <button onClick={() => scrollTo("#projects")} className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{projects}</span></button>
+                <button onClick={() => scrollTo("#skills")} className="button" style={{marginLeft: "5px"}}> <span className="navbar-text">{skills}</span></button>
               </div> :
               <div>
                 <span className="logo-name-brackets"> &lt;</span>
@@ -65,11 +66,11 @@ class Header extends Component {
                 </span>
                 <span className="logo-name-brackets">/&gt;</span>
                 <span style={{ marginLeft: "40%" }} />
-                <button className="button"> <span className="navbar-text">{"About"}</span></button>
-                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{education}</span></button>
-                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{experience}</span></button>
-                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{projects}</span></button>
-                <button className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{skills}</span></button>
+                <button onClick={() => scrollTo("#about")} className="button"> <span className="navbar-text">{"About"}</span></button>
+                <button onClick={() => scrollTo("#education")} className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{education}</span></button>
+                <button onClick={() => scrollTo("#experience")} className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{experience}</span></button>
+                <button onClick={() => scrollTo("#projects")} className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{projects}</span></button>
+                <button onClick={() => scrollTo("#skills")} className="button" style={{marginLeft: "20px"}}> <span className="navbar-text">{skills}</span></button>
               </div>
           )}
         </div>

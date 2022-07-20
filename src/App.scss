@@ -218,6 +218,14 @@ header a:hover {
 	border-radius: 8px;
 }
 
+.education-tile {
+	background-color: transparentize(#F8F5F4, 0.95);
+	padding: 10px 10px 5px 10px;
+	width: 100px;
+	margin: 5px 0 5px 0;
+	border-radius: 8px;
+}
+
 .slider-image {
 	border: 5px solid #D7CAAA;
 }
@@ -301,10 +309,6 @@ header a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-#resume {
-	background: #efe1bd;
 }
 
 .experience-icon {
@@ -425,18 +429,18 @@ header a:hover {
 	color: black !important;
 }
 
-#portfolio {
+#projects {
 	background: #efe1bd;
 	padding-bottom: 5%;
 }
 
-.portfolio-item {
+.projects-item {
 	max-width: 100%;
 	margin-bottom: 15px;
 	text-align: center;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.projects .projects-item .projects-item-caption {
 	-webkit-transition: all ease 0.5s;
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
@@ -444,24 +448,32 @@ header a:hover {
 	background-color: rgba(51, 51, 51, 0.9);
 }
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.projects .projects-item .projects-item-caption:hover {
 	opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.projects .projects-item .projects-item-caption .projects-item-caption-content {
 	font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
-	.portfolio .closeButtonResponsive {
+	.projects .closeButtonResponsive {
 		display: block;
 	}
-	.portfolio .portfolio-item {
+	.projects .projects-item {
 		margin-bottom: 30px;
 	}
 }
 
 #skills {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
+#education {
 	background: #1F1F1F;
 	min-height: 200px;
 	width: 100%;
