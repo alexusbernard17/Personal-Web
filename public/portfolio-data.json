@@ -29,49 +29,88 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "Java",
+          "class": "devicon-java-plain colored"
         },
         {
           "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "class": "devicon-csharp-plain colored"
+        },
+        {
+          "name": "C",
+          "class": "devicon-c-plain colored"
+        },
+        {
+          "name": "Go",
+          "class": "devicon-go-original-wordmark colored"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain colored"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain colored"
+        },
+        {
+          "name": "HTML",
+          "class": "devicon-html5-plain colored"
+        },
+        {
+          "name": "CSS",
+          "class": "devicon-css3-plain colored "
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original colored"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain colored"
+        },
+        {
+          "name": "MATLAB",
+          "class": "devicon-matlab-plain colored"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain colored"
+        },
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain colored"
+        },
+        {
+          "name": "ASP.NET",
+          "class": "devicon-dotnetcore-plain colored"
+        },
+        {
+          "name": "Next.js",
+          "class": "devicon-nextjs-original"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original colored"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain colored"
+        },
+        {
+          "name": "Postman",
+          "class": "iconify"
         },
         {
           "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "class": "devicon-mysql-plain colored"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain colored"
         }
       ]
     }
