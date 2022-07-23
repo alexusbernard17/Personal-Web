@@ -200,6 +200,44 @@ header a:hover {
 }
 
 
+// For Education.js
+
+
+#education {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 8%;
+}
+
+.education-tile {
+	background-color: transparentize(#F8F5F4, 0.95);
+	margin-top: 0rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin: 1rem 10px 5px 0px;
+	width: 310px;
+	height: 400px;
+	border-radius: 30px;
+}
+
+.school-name {
+	font-family: 'Montserrat';
+	font-weight: 501;
+	font-size: 93%;
+	margin-top: 20px;
+}
+
+.education-degree-text {
+	margin-top: 3rem;
+	font-style: italic;
+}
+
+.education-years {
+	margin-top: 3rem;
+}
+
 
 .project-date {
 	font-size: 16px;
@@ -214,14 +252,6 @@ header a:hover {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
-	padding: 10px 10px 5px 10px;
-	width: 100px;
-	margin: 5px 0 5px 0;
-	border-radius: 8px;
-}
-
-.education-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
@@ -469,14 +499,6 @@ header a:hover {
 }
 
 #skills {
-	background: #1F1F1F;
-	min-height: 200px;
-	width: 100%;
-	overflow: hidden;
-	padding-bottom: 10%;
-}
-
-#education {
 	background: #1F1F1F;
 	min-height: 200px;
 	width: 100%;

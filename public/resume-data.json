@@ -115,5 +115,33 @@
           "DHTMLX Gantt"
         ]
       }
-    ]
+    ],
+    "education": {
+      "schools": [
+        {
+          "imagePath": "/images/georgia-tech-logo.png",
+          "name": "Georgia Institute of Technology",
+          "location": "Atlanta, GA",
+          "degree": "B.S. in Computer Science",
+          "description": "Intelligence & Info-Internetworks",
+          "years": "2021-2023"
+        },
+        {
+          "imagePath": "/images/whatcom-cc-logo.png",
+          "name": "Whatcom Community College",
+          "location": "Bellingham, WA",
+          "degree": "A.S. in Physics & General Engineering",
+          "description": "High School Diploma",
+          "years": "2019-2020"
+        },
+        {
+          "imagePath": "/images/bpk-logo.png",
+          "name": "SMA BPK Penabur Banda",
+          "location": "Bandung, Indonesia",
+          "degree": "Cambridge International General",
+          "description": "Certificate of Secondary Education",
+          "years": "2014-2018"
+        }
+      ]
+    } 
   }
