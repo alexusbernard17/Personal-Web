@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello world 👋,",
-      "description": "I'm currently a junior at Georgia Tech majoring in Computer Science. My threads are Intelligence and Information Internetworks. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "I'm currently a junior majoring in Computer Science at the Georgia Institute of Technology. My threads are Intelligence and Information Internetworks. I have experience in working as a full-stack developer and I also enjoy building mobile applications. I am proficient in multiple object-oriented languages, however Java has been my favorite one so far. I am also familiar and have worked on several front-end and back-end frameworks/ libraries. Outside of school, I often play basketball with my friends, and I mostly spend my free time watching and following the NFL and NBA. I am a huge fan of the Seahawks and LeBron James, and yes he is the GOAT. Thanks for checking out my page, and please do not hesitate to contact me!",
       "section_name": {
         "about": "About Me",
         "education": "Education",
@@ -22,7 +22,7 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
+            "class": "devicon-angularjs-plain colored",
             "name": "Angular"
           },
           {

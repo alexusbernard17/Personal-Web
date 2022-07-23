@@ -56,7 +56,7 @@ class About extends Component {
                     className="card-body about-me-paragraph-font text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
+                      fontSize: "140%",
                       lineHeight: "190%",
                     }}
                   >
