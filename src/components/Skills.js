@@ -4,30 +4,46 @@ class Skills extends Component {
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.skills;
-      var skills = this.props.sharedSkills.icons.map(function (skills, i) {
+      var languages = this.props.sharedSkills.languages.icons.map(function (languages, i) {
         return (
           <li className="list-inline-item mx-3" key={i}>
             <span>
               <div className="text-center skills-tile">
-                {skills.name === "Postman" ?
-                <div>
-                  <span class="iconify" data-icon="logos:postman-icon" style={{ fontSize: '185%' }}></span>
-                  <p
-                    className="text-center"
-                    style={{ fontSize: "65%", marginTop: "7px" }}
-                    >
-                    {skills.name}
+                <i className={languages.class} style={{ fontSize: "375%"}}>
+                  <p style={{ fontSize: "32%", marginTop: "1rem", color: "white"}}>
+                    {languages.name}
                   </p>
-                </div>
-                  : <i className={skills.class} style={{ fontSize: "220%" }}>
-                    <p
-                      className="text-center"
-                      style={{ fontSize: "30%", marginTop: "4px" }}
-                    >
-                      {skills.name}
-                    </p>
-                  </i>
-                }
+                </i>
+              </div>
+            </span>
+          </li>
+        );
+      });
+      var frameworks = this.props.sharedSkills.frameworks.icons.map(function (frameworks, i) {
+        return (
+          <li className="list-inline-item mx-3" key={i}>
+            <span>
+              <div className="text-center skills-tile">
+                <i className={frameworks.class} style={{ fontSize: "375%"}}>
+                  <p style={{ fontSize: "32%", marginTop: "1rem", color: "white"}}>
+                    {frameworks.name}
+                  </p>
+                </i>
+              </div>
+            </span>
+          </li>
+        );
+      });
+      var tools = this.props.sharedSkills.tools.icons.map(function (tools, i) {
+        return (
+          <li className="list-inline-item mx-3" key={i}>
+            <span>
+              <div className="text-center skills-tile">
+                <i className={tools.class} style={{ fontSize: "375%"}}>
+                  <p style={{ fontSize: "32%", marginTop: "1rem", color: "white"}}>
+                    {tools.name}
+                  </p>
+                </i>
               </div>
             </span>
           </li>
@@ -44,7 +60,16 @@ class Skills extends Component {
             </h1>
           </div>
           <div className="col-md-12 text-center">
-            <ul className="list-inline mx-auto skill-icon">{skills}</ul>
+            <h1 style={{ fontSize: '225%' }}>Languages</h1>
+            <ul className="list-inline mx-auto skill-icon">{languages}</ul>
+          </div>
+          <div className="col-md-12 text-center" style={{ marginTop:"3rem" }}>
+            <h1 style={{ fontSize: '225%' }}>Frameworks/ Libraries</h1>
+            <ul className="list-inline mx-auto skill-icon">{frameworks}</ul>
+          </div>
+          <div className="col-md-12 text-center" style={{ marginTop:"3rem" }}>
+            <h1 style={{ fontSize: '225%' }}>Software/ Tools</h1>
+            <ul className="list-inline mx-auto skill-icon">{tools}</ul>
           </div>
         </div>
       </section>
