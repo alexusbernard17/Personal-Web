@@ -60,15 +60,15 @@ class Skills extends Component {
             </h1>
           </div>
           <div className="col-md-12 text-center">
-            <h1 style={{ fontSize: '225%' }}>Languages</h1>
+            <h1 className="skills-name" style={{ fontSize: '225%' }}>Languages</h1>
             <ul className="list-inline mx-auto skill-icon">{languages}</ul>
           </div>
           <div className="col-md-12 text-center" style={{ marginTop:"3rem" }}>
-            <h1 style={{ fontSize: '225%' }}>Frameworks/ Libraries</h1>
+            <h1 className="skills-name" style={{ fontSize: '225%' }}>Frameworks/ Libraries</h1>
             <ul className="list-inline mx-auto skill-icon">{frameworks}</ul>
           </div>
           <div className="col-md-12 text-center" style={{ marginTop:"3rem" }}>
-            <h1 style={{ fontSize: '225%' }}>Software/ Tools</h1>
+            <h1 className="skills-name" style={{ fontSize: '225%' }}>Software/ Tools</h1>
             <ul className="list-inline mx-auto skill-icon">{tools}</ul>
           </div>
         </div>
