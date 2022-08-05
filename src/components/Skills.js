@@ -34,21 +34,6 @@ class Skills extends Component {
           </li>
         );
       });
-      var tools = this.props.sharedSkills.tools.icons.map(function (tools, i) {
-        return (
-          <li className="list-inline-item mx-3" key={i}>
-            <span>
-              <div className="text-center skills-tile">
-                <i className={tools.class} style={{ fontSize: "375%"}}>
-                  <p style={{ fontSize: "32%", marginTop: "1rem", color: "white"}}>
-                    {tools.name}
-                  </p>
-                </i>
-              </div>
-            </span>
-          </li>
-        );
-      });
     }
 
     return (
@@ -66,10 +51,6 @@ class Skills extends Component {
           <div className="col-md-12 text-center" style={{ marginTop:"3rem" }}>
             <h1 className="skills-name" style={{ fontSize: '225%' }}>Frameworks/ Libraries</h1>
             <ul className="list-inline mx-auto skill-icon">{frameworks}</ul>
-          </div>
-          <div className="col-md-12 text-center" style={{ marginTop:"3rem" }}>
-            <h1 className="skills-name" style={{ fontSize: '225%' }}>Software/ Tools</h1>
-            <ul className="list-inline mx-auto skill-icon">{tools}</ul>
           </div>
         </div>
       </section>

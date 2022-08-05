@@ -98,30 +98,6 @@
             "class": "devicon-nextjs-original"
           }
         ]
-      },
-      "tools": {
-        "icons": [
-          {
-            "name": "Git",
-            "class": "devicon-git-plain"
-          },
-          {
-            "name": "Docker",
-            "class": "devicon-docker-plain colored"
-          },
-          {
-            "name": "Postman",
-            "class": "devicon-postman-plain colored"
-          },
-          {
-            "name": "MySQL",
-            "class": "devicon-mysql-plain colored"
-          },
-          {
-            "name": "MongoDB",
-            "class": "devicon-mongodb-plain colored"
-          }
-        ]
       }
     }
   }
