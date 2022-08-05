@@ -79,7 +79,7 @@ class App extends Component {
           education={this.state.resumeData.education}
           resumeBasicInfo={this.state.resumeData.basic_info}/>
         <Experience
-          resumeExperience={this.state.resumeData.experience}
+          experience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Projects

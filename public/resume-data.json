@@ -82,34 +82,18 @@
     ],
     "experience": [
       {
+        "imagePath": "/images/ncr-logo.png",
         "company": "NCR Corporation",
         "title": "Software Engineer Intern",
         "years": "05/2022 - 08/2022",
-        "description": "",
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+        "description": "Worked as a full-stack developer to build an in-house RBAC configuration and analytics dashboard for the NCR BSP's external SaaS API services using the Next.js React framework."
       },
       {
+        "imagePath": "/images/whatcom-cc-logo.png",
         "company": "Whatcom Community College",
         "title": "Computer Science Tutor",
         "years": "05/2020 - 12/2020",
-        "description": "",
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+        "description": "Assisted students on CS labs and assignments. Provided one-on-one tutoring for three Java classes (Computer Programming I, OOP, and Data Structures & Algorithms)."
       }
     ],
     "education": {
