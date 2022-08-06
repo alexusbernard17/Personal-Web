@@ -53,9 +53,14 @@ class Projects extends Component {
           <h1 className="section-title">
             <span>{sectionName}</span>
           </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
-          </div>
+          { window.innerWidth <= 576 ?
+            <div className="col-md-12 mx-auto">
+              <div className="row mx-auto">{projects}</div>
+            </div> :
+            <div className="col-md-12 mx-auto" style={{ paddingLeft: "25%" }}>
+              <div className="row mx-auto">{projects}</div>
+            </div>
+          }
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}

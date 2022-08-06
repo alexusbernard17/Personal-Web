@@ -17,8 +17,8 @@ class ProjectDetailsModal extends Component {
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                  <i className={icons.class} style={{ fontSize: "315%" }}>
+                    <p className="text-center" style={{ fontSize: "35%", color: "white", paddingTop: "0.5rem" }}>
                       {icons.name}
                     </p>
                   </i>
