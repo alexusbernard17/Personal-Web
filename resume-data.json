@@ -16,11 +16,11 @@
         "startDate": "07/2022",
         "description": "My team developed a React Native application to provide customers with information on a product’s availability and its specific location (aisles) in stores. We created a computer vision machine learning model using the Microsoft Azure Computer Vision Toolkit and trained it with the Freiburg Groceries Dataset to determine whether a product is in stock or out of stock. This was a project submission for the NCR’s 2022 Global Hackathon and we placed in the top 10 for the software division.",
         "images": [
-          "./Personal-Web/images/portfolio/ncr-go/ncr-go-main.jpeg",
-          "./Personal-Web/images/portfolio/ncr-go/ncr-go-1.png",
-          "./Personal-Web/images/portfolio/ncr-go/ncr-go-2.png",
-          "./Personal-Web/images/portfolio/ncr-go/ncr-go-3.png",
-          "./Personal-Web/images/portfolio/ncr-go/ncr-go-4.png"
+          "images/portfolio/ncr-go/ncr-go-main.jpeg",
+          "images/portfolio/ncr-go/ncr-go-1.png",
+          "images/portfolio/ncr-go/ncr-go-2.png",
+          "images/portfolio/ncr-go/ncr-go-3.png",
+          "images/portfolio/ncr-go/ncr-go-4.png"
         ],
         "url": "",
         "technologies": [
@@ -51,12 +51,12 @@
         "startDate": "01/2022",
         "description": "Developed an android mobile application game using Android Studio with Java and XML. Implemented the Unified Process Milestones in a semester-long team project with 4 other teammates. We utilized the Git/ GitHub version control, designed diagrams (Domain Model, DCD, SSDs, and SDs), and integrated unit testing (JUnits) for the app.",
         "images": [
-          "./Personal-Web/images/portfolio/tower-defense/tower-defense-1.png",
-          "./Personal-Web/images/portfolio/tower-defense/tower-defense-2.png",
-          "./Personal-Web/images/portfolio/tower-defense/tower-defense-3.png",
-          "./Personal-Web/images/portfolio/tower-defense/tower-defense-4.png",
-          "./Personal-Web/images/portfolio/tower-defense/tower-defense-5.png",
-          "./Personal-Web/images/portfolio/tower-defense/tower-defense-6.png"
+          "images/portfolio/tower-defense/tower-defense-1.png",
+          "images/portfolio/tower-defense/tower-defense-2.png",
+          "images/portfolio/tower-defense/tower-defense-3.png",
+          "images/portfolio/tower-defense/tower-defense-4.png",
+          "images/portfolio/tower-defense/tower-defense-5.png",
+          "images/portfolio/tower-defense/tower-defense-6.png"
         ],
         "url": "",
         "technologies": [
@@ -73,14 +73,14 @@
     ],
     "experience": [
       {
-        "imagePath": "./Personal-Web/images/ncr-logo.png",
+        "imagePath": "/images/ncr-logo.png",
         "company": "NCR Corporation",
         "title": "Software Engineer Intern",
         "years": "05/2022 - 08/2022",
         "description": "Worked as a full-stack developer to build an in-house RBAC configuration and analytics dashboard for the NCR BSP's SaaS API services using the Next.js React framework."
       },
       {
-        "imagePath": "./Personal-Web/images/whatcom-cc-logo.png",
+        "imagePath": "/images/whatcom-cc-logo.png",
         "company": "Whatcom Community College",
         "title": "Computer Science Tutor",
         "years": "05/2020 - 12/2020",
@@ -90,7 +90,7 @@
     "education": {
       "schools": [
         {
-          "imagePath": "./Personal-Web/images/georgia-tech-logo.png",
+          "imagePath": "/images/georgia-tech-logo.png",
           "name": "Georgia Institute of Technology",
           "location": "Atlanta, GA",
           "degree": "B.S. in Computer Science",
@@ -98,7 +98,7 @@
           "years": "2021-2023"
         },
         {
-          "imagePath": "./Personal-Web/images/whatcom-cc-logo.png",
+          "imagePath": "/images/whatcom-cc-logo.png",
           "name": "Whatcom Community College",
           "location": "Bellingham, WA",
           "degree": "A.S. in Physics & General Engineering",
@@ -106,7 +106,7 @@
           "years": "2019-2020"
         },
         {
-          "imagePath": "./Personal-Web/images/bpk-logo.png",
+          "imagePath": "/images/bpk-logo.png",
           "name": "SMA BPK Penabur Banda",
           "location": "Bandung, Indonesia",
           "degree": "Cambridge International General",
