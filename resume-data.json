@@ -14,7 +14,7 @@
       {
         "title": "NCR Go",
         "startDate": "07/2022",
-        "description": "My team developed a React Native application to provide customers with information on a product’s availability and its specific location (aisles) in stores. We created a computer vision machine learning model using the Microsoft Azure Computer Vision Toolkit and trained it with the Freiburg Groceries Dataset to determine whether a product is in stock or out of stock. This was a project submission for the NCR’s 2022 Global Hackathon and we placed in the top 10 for the software division.",
+        "description": "My team developed a React Native application to provide customers with information on a product’s availability and its specific location (aisles) in stores. We created a computer vision machine learning model using the Microsoft Azure Computer Vision Toolkit and trained it with the Freiburg Groceries Dataset to determine whether a product is in stock or out of stock. This was a project submission for the NCR’s 2022 Global Hackathon and we placed in the top 10 for the software division out of 400+ submissions.",
         "images": [
           "images/portfolio/ncr-go/ncr-go-main.jpeg",
           "images/portfolio/ncr-go/ncr-go-1.png",
