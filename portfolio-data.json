@@ -1,0 +1,107 @@
+{
+    "basic_info": {
+      "name": "Alexus Brooklyn",
+      "titles": [ "Computer Science Student", "Software Engineer", "Full Stack Developer"],
+      "social": [
+        {
+          "name": "mail",
+          "url": "mailto:abrooklyn3@gatech.edu",
+          "class": "fas fa-envelope"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/alexusbernard17",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/alexusbrooklyn/",
+          "class": "fab fa-linkedin-in"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/alexusbernard17/",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "profile-pic.jpg"
+    },
+    "skills": {
+      "languages": {
+        "icons": [
+          {
+            "name": "Java",
+            "class": "devicon-java-plain colored"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain colored"
+          },
+          {
+            "name": "TypeScript",
+            "class": "devicon-typescript-plain colored"
+          },
+          {
+            "name": "C#",
+            "class": "devicon-csharp-plain colored"
+          },
+          {
+            "name": "C",
+            "class": "devicon-c-plain colored"
+          },
+          {
+            "name": "Go",
+            "class": "devicon-go-original-wordmark colored"
+          },
+          {
+            "name": "HTML",
+            "class": "devicon-html5-plain colored"
+          },
+          {
+            "name": "CSS",
+            "class": "devicon-css3-plain colored "
+          },
+          {
+            "name": "Sass",
+            "class": "devicon-sass-original colored"
+          },
+          {
+            "name": "Python",
+            "class": "devicon-python-plain colored"
+          },
+          {
+            "name": "Swift",
+            "class": "devicon-swift-plain colored"
+          },
+          {
+            "name": "MATLAB",
+            "class": "devicon-matlab-plain colored"
+          }
+        ]
+      },
+      "frameworks": {
+        "icons": [
+          {
+            "name": "Node.js",
+            "class": "devicon-nodejs-plain colored"
+          },
+          {
+            "name": "Spring Boot",
+            "class": "devicon-spring-plain colored"
+          },
+          {
+            "name": "ASP.NET",
+            "class": "devicon-dotnetcore-plain colored"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-original colored"
+          },
+          {
+            "name": "Next.js",
+            "class": "devicon-nextjs-original"
+          }
+        ]
+      }
+    }
+  }

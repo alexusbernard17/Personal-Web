@@ -1,0 +1,118 @@
+{
+    "basic_info": {
+      "description_header": "Hello world 👋,",
+      "description": "I'm currently a junior majoring in Computer Science at the Georgia Institute of Technology. My threads are Intelligence and Information Internetworks. I have experience in working as a full-stack developer and I also enjoy building mobile applications. I am proficient in multiple object-oriented languages, however Java has been my favorite one so far. I am also familiar with and have worked on several front-end and back-end frameworks/ libraries. Outside of school, I often play basketball with my friends, and I mostly spend my free time watching the NFL and NBA. I am a huge fan of the Seahawks and LeBron James. Thanks for checking out my page, and please feel free to contact me!",
+      "section_name": {
+        "about": "About Me",
+        "education": "Education",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "NCR Go",
+        "startDate": "07/2022",
+        "description": "My team developed a React Native application to provide customers with information on a product’s availability and its specific location (aisles) in stores. We created a computer vision machine learning model using the Microsoft Azure Computer Vision Toolkit and trained it with the Freiburg Groceries Dataset to determine whether a product is in stock or out of stock. This was a project submission for the NCR’s 2022 Global Hackathon and we placed in the top 10 for the software division.",
+        "images": [
+          "images/portfolio/ncr-go/ncr-go-main.jpeg",
+          "images/portfolio/ncr-go/ncr-go-1.png",
+          "images/portfolio/ncr-go/ncr-go-2.png",
+          "images/portfolio/ncr-go/ncr-go-3.png",
+          "images/portfolio/ncr-go/ncr-go-4.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-original colored",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-mongodb-plain colored",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-azure-plain colored",
+            "name": "Microsoft Azure"
+          },
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Tower Defense Game",
+        "startDate": "01/2022",
+        "description": "Developed an android mobile application game using Android Studio with Java and XML. Implemented the Unified Process Milestones in a semester-long team project with 4 other teammates. We utilized the Git/ GitHub version control, designed diagrams (Domain Model, DCD, SSDs, and SDs), and integrated unit testing (JUnits) for the app.",
+        "images": [
+          "images/portfolio/tower-defense/tower-defense-1.png",
+          "images/portfolio/tower-defense/tower-defense-2.png",
+          "images/portfolio/tower-defense/tower-defense-3.png",
+          "images/portfolio/tower-defense/tower-defense-4.png",
+          "images/portfolio/tower-defense/tower-defense-5.png",
+          "images/portfolio/tower-defense/tower-defense-6.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-androidstudio-plain colored",
+            "name": "Android Studio"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "imagePath": "/images/ncr-logo.png",
+        "company": "NCR Corporation",
+        "title": "Software Engineer Intern",
+        "years": "05/2022 - 08/2022",
+        "description": "Worked as a full-stack developer to build an in-house RBAC configuration and analytics dashboard for the NCR BSP's SaaS API services using the Next.js React framework."
+      },
+      {
+        "imagePath": "/images/whatcom-cc-logo.png",
+        "company": "Whatcom Community College",
+        "title": "Computer Science Tutor",
+        "years": "05/2020 - 12/2020",
+        "description": "Assisted students on CS labs and assignments. Provided one-on-one tutoring for three Java classes (Computer Programming I, OOP, and Data Structures & Algorithms)."
+      }
+    ],
+    "education": {
+      "schools": [
+        {
+          "imagePath": "/images/georgia-tech-logo.png",
+          "name": "Georgia Institute of Technology",
+          "location": "Atlanta, GA",
+          "degree": "B.S. in Computer Science",
+          "description": "Intelligence & Info-Internetworks",
+          "years": "2021-2023"
+        },
+        {
+          "imagePath": "/images/whatcom-cc-logo.png",
+          "name": "Whatcom Community College",
+          "location": "Bellingham, WA",
+          "degree": "A.S. in Physics & General Engineering",
+          "description": "High School Diploma",
+          "years": "2019-2020"
+        },
+        {
+          "imagePath": "/images/bpk-logo.png",
+          "name": "SMA BPK Penabur Banda",
+          "location": "Bandung, Indonesia",
+          "degree": "Cambridge International General",
+          "description": "Certificate of Secondary Education",
+          "years": "2014-2018"
+        }
+      ]
+    } 
+  }
