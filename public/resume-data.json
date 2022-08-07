@@ -73,14 +73,14 @@
     ],
     "experience": [
       {
-        "imagePath": "/images/ncr-logo.png",
+        "imagePath": "./images/ncr-logo.png",
         "company": "NCR Corporation",
         "title": "Software Engineer Intern",
         "years": "05/2022 - 08/2022",
         "description": "Worked as a full-stack developer to build an in-house RBAC configuration and analytics dashboard for the NCR BSP's SaaS API services using the Next.js React framework."
       },
       {
-        "imagePath": "/images/whatcom-cc-logo.png",
+        "imagePath": "./images/whatcom-cc-logo.png",
         "company": "Whatcom Community College",
         "title": "Computer Science Tutor",
         "years": "05/2020 - 12/2020",
@@ -90,7 +90,7 @@
     "education": {
       "schools": [
         {
-          "imagePath": "/images/georgia-tech-logo.png",
+          "imagePath": "./images/georgia-tech-logo.png",
           "name": "Georgia Institute of Technology",
           "location": "Atlanta, GA",
           "degree": "B.S. in Computer Science",
@@ -98,7 +98,7 @@
           "years": "2021-2023"
         },
         {
-          "imagePath": "/images/whatcom-cc-logo.png",
+          "imagePath": "./images/whatcom-cc-logo.png",
           "name": "Whatcom Community College",
           "location": "Bellingham, WA",
           "degree": "A.S. in Physics & General Engineering",
@@ -106,7 +106,7 @@
           "years": "2019-2020"
         },
         {
-          "imagePath": "/images/bpk-logo.png",
+          "imagePath": "./images/bpk-logo.png",
           "name": "SMA BPK Penabur Banda",
           "location": "Bandung, Indonesia",
           "degree": "Cambridge International General",
